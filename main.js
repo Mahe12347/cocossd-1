@@ -14,7 +14,7 @@ function modelLoaded(){
     objectDetector.detect(img,gotResult);
 }
 function preload(){
-    img=loadImage('dog_cat.jpg');
+    img=loadImage('lion and tiger.jpg');
 }
 function draw(){
     image(img,0,0,640,420);
